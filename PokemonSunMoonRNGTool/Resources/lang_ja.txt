@@ -1,0 +1,239 @@
+﻿! Interface Customization File
+! Languages: Save this file accordingly and put it in the same folder as PKHeX's executable.
+! lang_en.txt = English
+! lang_jp.txt = Japanese
+! lang_fr.txt = French
+! lang_de.txt = German
+! lang_es.txt = Spanish
+! lang_it.txt = Italian
+! lang_ko.txt = Korean
+! lang_cn.txt = Simplified Chinese
+! lang_zh.txt = Traditional Chinese
+! lang_pt.txt = Portuguese
+! Make sure that each edit has a ' = ' between Control name and new Text!
+!
+! -----------------------------------------------------
+- DO NOT CHANGE THIS SECTION EXCEPT FORM NAME & TITLE
+! Form1 = Pokemon SunMoon RNG Tool
+- Change stuff below this line, not above.
+---------------------Menu Strip------------------------
+Menu_File = ファイル
+Menu_Exit = 終了する
+--
+Menu_Options = 設定
+Menu_Language = 言語
+Menu_SaveConfig = 設定を保存
+Menu_TSV = TSVリスト
+Menu_ParentsList = 親リスト
+Menu_ResetSettings = 設定をリセット
+Menu_About = について
+--------------------Context Menus----------------------
+mnu_EggCopy = コピー(&C)
+mnu_EggSelectAll = 全て選択(&A)
+mnu_SetEggSearchSeed = 検索範囲へseedを入れる
+mnu_SetEggListSeed = 連続孵化リストへseedを入れる
+mnu_Copy = コピー(&C)
+mnu_SelectAll = 全て選択(&A)
+--------------------HatchingRNG Tab--------------------
+Tab_Egg = 孵化乱数
+---------------------EggSearch Tab------------------------
+Tab_EggSearch = 個体検索
+--
+GB_EggS_Parents_Info = 親の情報
+L_EggS_pre = ♂親
+L_EggS_pre_H = H
+L_EggS_pre_A = A
+L_EggS_pre_B = B
+L_EggS_pre_C = C
+L_EggS_pre_D = D
+L_EggS_pre_S = S
+L_EggS_PreItems = 持ち物
+L_EggS_PreAbility = 特性
+CB_EggS_pre_ditto = メタモン
+L_EggS_post = ♀親
+L_EggS_post_H = H
+L_EggS_post_A = A
+L_EggS_post_B = B
+L_EggS_post_C = C
+L_EggS_post_D = D
+L_EggS_post_S = S
+L_EggS_PostItems = 持ち物
+L_EggS_PostAbility = 特性
+CB_EggS_post_ditto = メタモン
+CB_EggS_Heterogeneity = 異種間孵化
+L_EggS_Gender_ratio = 性別比
+--
+GB_EggS_Filters = フィルター
+L_EggS_Search_H = H
+L_EggS_Search_A = A
+L_EggS_Search_B = B
+L_EggS_Search_C = C
+L_EggS_Search_D = D
+L_EggS_Search_S = S
+L_EggS_Search_Nature = 性格
+L_EggS_Search_Ability = 特性
+L_EggS_Search_Gender = 性別
+L_EggS_Search_HiddenPower = めざパ
+L_EggS_Search_Ball = ボール
+CB_EggS_Search_DisableFilters = 絞り込みを無効
+--
+GB_EggS_RNGInfo = 検索範囲
+L_EggS_Range = 消費数
+--
+GB_EggS_SearchSettings = その他
+CB_EggS_International = 国際孵化
+CB_EggS_ShinyCharm = 光るお守り
+CB_EggS_Shiny = 色違いのみ出力
+CB_EggS_TSV_Shiny = TSVを考慮した計算をする
+CB_EggS_OtherTSV = 他TSVで色違いを探す
+--
+dgv_EggS_Frame = 消費
+dgv_EggS_Used = 受取
+dgv_EggS_Seed = Seed
+dgv_EggS_H = H
+dgv_EggS_A = A
+dgv_EggS_B = B
+dgv_EggS_C = C
+dgv_EggS_D = D
+dgv_EggS_S = S
+dgv_EggS_Gender = 性別
+dgv_EggS_Ability = 特性
+dgv_EggS_Nature = 性格
+dgv_EggS_Ball = ボール
+dgv_EggS_PID = 性格値
+dgv_EggS_PSV = SV
+dgv_EggS_EC = 暗号化定数
+dgv_EggS_Rand = 乱数列
+--
+B_EggS_Search = 計算
+----------------------EggList Tab--------------------------
+Tab_EggList = 連続孵化リスト
+GB_EggL_RNGInfo = 検索範囲
+L_EggL_EggRange = 受け取り回数
+CB_EggL_TSV_Shiny = TSVを考慮した計算をする
+L_EggL_TargetFrame = 目標消費
+B_EggL_Search = 計算
+--
+dgv_EggL_Frame = 受取
+dgv_EggL_Used = 消費
+dgv_EggL_Seed = Seed
+dgv_EggL_H = H
+dgv_EggL_A = A
+dgv_EggL_B = B
+dgv_EggL_C = C
+dgv_EggL_D = D
+dgv_EggL_S = S
+dgv_EggL_Gender = 性別
+dgv_EggL_Ability = 特性
+dgv_EggL_Nature = 性格
+dgv_EggL_Ball = ボール
+dgv_EggL_PID = 性格値
+dgv_EggL_PSV = SV
+dgv_EggL_EC = 暗号化定数
+dgv_EggL_Rand = 乱数列
+-------------------StationaryRNG Tab---------------------
+Tab_Stationary = 固定乱数
+-----------------StationarySearch Tab--------------------
+Tab_StationarySearch = 個体検索
+--
+GB_StaS_RNGInfo = 検索範囲
+L_StaS_InitialSeed = 初期seed
+L_StaS_Frame = Frame
+L_StaS_TargetFrame = 目標Frame
+B_StaS_UpdateFrame = 上書き
+--
+RB_StaS_Search_IV = 個体値から検索
+RB_StaS_Search_Status = 能力値から検索
+L_StaS_Pokemon = ポケモン
+CB_StaS_Status_Display = 能力値を表示する
+CB_StaS_Search_DisableFilters = 絞り込みを無効
+L_StaS_Search_Nature = 性格
+L_StaS_Search_SyncNature = シンクロ
+L_StaS_Search_HiddenPower = めざパ
+--
+L_StaS_Search_H = H
+L_StaS_Search_A = A
+L_StaS_Search_B = B
+L_StaS_Search_C = C
+L_StaS_Search_D = D
+L_StaS_Search_S = S
+--
+dgv_StaS_Frame = F
+dgv_StaS_Shift = ずれ
+dgv_StaS_H = H
+dgv_StaS_A = A
+dgv_StaS_B = B
+dgv_StaS_C = C
+dgv_StaS_D = D
+dgv_StaS_S = S
+dgv_StaS_Nature = 性格
+dgv_StaS_Synchronize = シンクロ
+dgv_StaS_H_Status = H
+dgv_StaS_A_Status = A
+dgv_StaS_B_Status = B
+dgv_StaS_C_Status = C
+dgv_StaS_D_Status = D
+dgv_StaS_S_Status = S
+dgv_StaS_PSV = PSV
+dgv_StaS_Needle = 針
+dgv_StaS_Rand = 乱数値
+--
+GB_StaS_SearchSettings = その他
+CB_StaS_SynchroOnly = シンクロ個体のみ出力
+CB_StaS_Shiny = 色違いのみ出力
+CB_StaS_AlwaysSynchro = 必ずシンクロ
+L_Sta_Valid_Blink = まばたき契機
+CB_StaS_BlinkOnly = まばたき直後の個体を出力
+--
+B_StaS_Search = 計算
+----------------------StationaryClock Tab-----------------
+Tab_StationaryClock = 針検索
+--
+GB_StaC_EnterNeedle = 針入力
+CB_StaC_Clock_Start = 開始時の位置
+CB_StaC_Clock_End = 終了時の位置
+B_StaC_Clear = 消去
+B_StaC_Back = 1つ戻る
+L_StaC_Candidate_InitialSeed = 初期seed候補
+--
+GB_StaC_CurrentPosition = 現在位置検索
+B_StaC_CP_Search = 計算
+L_StaC_CP_InitialSeed = 初期seed
+L_StaC_CP_Frame = Frame
+L_StaC_CP_NeedleList = 針リスト
+--
+GB_StaC_CalcWaitingTime = 待機Frame計算
+B_StaC_CWT_Search = 計算
+L_StaC_CWT_InitialSeed = 初期seed
+L_StaC_CWT_Frame = Frame
+L_StaC_CWT_Qty_NPC = NPCの数
+--------------------IDRNG Tab--------------------
+Tab_ID = ID調整
+--
+L_ID_InitialSeed = 初期seed
+L_ID_Frame = Frame
+L_ID_IDList = IDリスト
+L_ID_PSVList = PSVリスト
+L_ID_CorrectionValue = 針の補正
+--
+RB_ID_PerfectMatching = 完全一致
+RB_ID_PartialMatch = 部分一致
+RB_ID_RegularExpression = 正規表現
+--
+CB_ID_DisableFilters = 絞り込みを無効
+CB_ID_Shiny = 色違いのみ出力
+--
+dgv_ID_Frame = Frame
+dgv_ID_ID = ID（通常）
+dgv_ID_TSV = TSV
+dgv_ID_TID = TID
+dgv_ID_SID = SID
+dgv_ID_Needle = 針
+--
+GB_ID_RNGInfo = 検索範囲
+GB_ID_Filters = フィルター
+GB_ID_SearchSettings = その他
+--
+B_ID_Search = 計算
+---------------------Other Tab----------------------
+other = その他

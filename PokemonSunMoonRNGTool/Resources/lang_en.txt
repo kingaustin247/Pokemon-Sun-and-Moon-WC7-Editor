@@ -1,0 +1,239 @@
+﻿! Interface Customization File
+! Languages: Save this file accordingly and put it in the same folder as PKHeX's executable.
+! lang_en.txt = English
+! lang_jp.txt = Japanese
+! lang_fr.txt = French
+! lang_de.txt = German
+! lang_es.txt = Spanish
+! lang_it.txt = Italian
+! lang_ko.txt = Korean
+! lang_cn.txt = Simplified Chinese
+! lang_zh.txt = Traditional Chinese
+! lang_pt.txt = Portuguese
+! Make sure that each edit has a ' = ' between Control name and new Text!
+!
+! -----------------------------------------------------
+- DO NOT CHANGE THIS SECTION EXCEPT FORM NAME & TITLE
+! Form1 = Pokemon SunMoon RNG Tool
+- Change stuff below this line, not above.
+---------------------Menu Strip------------------------
+Menu_File = File
+Menu_Exit = Exit
+--
+Menu_Options = Options
+Menu_Language = Language
+Menu_SaveConfig = Save Config
+Menu_TSV = TSV List
+Menu_ParentsList = Parents List
+Menu_ResetSettings = Reset settings to default
+Menu_About = About
+--------------------Context Menus----------------------
+mnu_EggCopy = Copy(&C)
+mnu_EggSelectAll = Select All(&A)
+mnu_SetEggSearchSeed = Copy seed to this tab
+mnu_SetEggListSeed = Copy seed to other tab
+mnu_Copy = Copy(&C)
+mnu_SelectAll = Select All(&A)
+-------------------HatchingRNG Tab---------------------
+Tab_Egg = HatchingRNG
+---------------------EggSearch Tab------------------------
+Tab_EggSearch = Search
+--
+GB_EggS_Parents_Info = Parents
+L_EggS_pre = ♂ Parent:
+L_EggS_pre_H = HP
+L_EggS_pre_A = Atk
+L_EggS_pre_B = Def
+L_EggS_pre_C = SpA
+L_EggS_pre_D = SpD
+L_EggS_pre_S = Spe
+L_EggS_PreItems = Item:
+L_EggS_PreAbility = Ability:
+CB_EggS_pre_ditto = Ditto
+L_EggS_post = ♀ Parent:
+L_EggS_post_H = HP
+L_EggS_post_A = Atk
+L_EggS_post_B = Def
+L_EggS_post_C = SpA
+L_EggS_post_D = SpD
+L_EggS_post_S = Spe
+L_EggS_PostItems = Item:
+L_EggS_PostAbility = Ability:
+CB_EggS_post_ditto = Ditto
+CB_EggS_Heterogeneity = Different species
+L_EggS_Gender_ratio = Gender Ratio:
+--
+GB_EggS_Filters = Filters
+L_EggS_Search_H = HP
+L_EggS_Search_A = Atk
+L_EggS_Search_B = Def
+L_EggS_Search_C = SpA
+L_EggS_Search_D = SpD
+L_EggS_Search_S = Spe
+L_EggS_Search_Nature = Nature:
+L_EggS_Search_Ability = Ability:
+L_EggS_Search_Gender = Gender:
+L_EggS_Search_HiddenPower = HP Type:
+L_EggS_Search_Ball = Ball:
+CB_EggS_Search_DisableFilters = Disable filters
+--
+GB_EggS_RNGInfo = RNG Info
+L_EggS_Range = Range
+--
+GB_EggS_SearchSettings = Search Settings
+CB_EggS_International = Masuda Method
+CB_EggS_ShinyCharm = Shiny Charm
+CB_EggS_Shiny = Shiny Only
+CB_EggS_TSV_Shiny = Generate using TSV
+CB_EggS_OtherTSV = Search TSV list matches
+--
+dgv_EggS_Frame = Frame
+dgv_EggS_Used = Frames adv. by receiving
+dgv_EggS_Seed = Seed
+dgv_EggS_H = HP
+dgv_EggS_A = Atk
+dgv_EggS_B = Def
+dgv_EggS_C = SpA
+dgv_EggS_D = SpD
+dgv_EggS_S = Spe
+dgv_EggS_Gender = Gender
+dgv_EggS_Ability = Ability
+dgv_EggS_Nature = Nature
+dgv_EggS_Ball = Ball
+dgv_EggS_PID = PID
+dgv_EggS_PSV = PSV
+dgv_EggS_EC = EC
+dgv_EggS_Rand = Rand
+--
+B_EggS_Search = Search
+----------------------EggList Tab--------------------------
+Tab_EggList = Egg List
+GB_EggL_RNGInfo = RNG Info
+L_EggL_EggRange = Range
+CB_EggL_TSV_Shiny = Use TSV when generating
+L_EggL_TargetFrame = Target Frame
+B_EggL_Search = Search
+--
+dgv_EggL_Frame = Egg
+dgv_EggL_Used = Frame
+dgv_EggL_Seed = Seed
+dgv_EggL_H = HP
+dgv_EggL_A = Atk
+dgv_EggL_B = Def
+dgv_EggL_C = SpA
+dgv_EggL_D = SpD
+dgv_EggL_S = Spe
+dgv_EggL_Gender = Gender
+dgv_EggL_Ability = Ability
+dgv_EggL_Nature = Nature
+dgv_EggL_Ball = Ball
+dgv_EggL_PID = PID
+dgv_EggL_PSV = PSV
+dgv_EggL_EC = EC
+dgv_EggL_Rand = Rand
+-------------------StationaryRNG Tab---------------------
+Tab_Stationary = StationaryRNG
+-----------------StationarySearch Tab--------------------
+Tab_StationarySearch = IV
+--
+GB_StaS_RNGInfo = RNGInfo
+L_StaS_InitialSeed = Initial Seed
+L_StaS_Frame = Frame
+L_StaS_TargetFrame = Target Frame
+B_StaS_UpdateFrame = Update
+--
+RB_StaS_Search_IV = Search by IVs
+RB_StaS_Search_Status = Search by Stats
+L_StaS_Pokemon = Pokemon
+CB_StaS_Status_Display = Show Stats
+CB_StaS_Search_DisableFilters = Disable filters
+L_StaS_Search_Nature = Nature
+L_StaS_Search_SyncNature = Sync
+L_StaS_Search_HiddenPower = HP Type
+--
+L_StaS_Search_H = HP
+L_StaS_Search_A = Atk
+L_StaS_Search_B = Def
+L_StaS_Search_C = SpA
+L_StaS_Search_D = SpD
+L_StaS_Search_S = Spe
+--
+dgv_StaS_Frame = Frame
+dgv_StaS_Shift = Shift
+dgv_StaS_H = HP
+dgv_StaS_A = Atk
+dgv_StaS_B = Def
+dgv_StaS_C = SpA
+dgv_StaS_D = SpD
+dgv_StaS_S = Spe
+dgv_StaS_Nature = Nature
+dgv_StaS_Synchronize = Sync
+dgv_StaS_H_Status = Hp
+dgv_StaS_A_Status = Atk
+dgv_StaS_B_Status = Def
+dgv_StaS_C_Status = SpA
+dgv_StaS_D_Status = SpD
+dgv_StaS_S_Status = Spe
+dgv_StaS_PSV = PSV
+dgv_StaS_Needle = Needle
+dgv_StaS_Rand = Rand
+--
+GB_StaS_SearchSettings = SearchSettings
+CB_StaS_SynchroOnly = Synced Only
+CB_StaS_Shiny = Shiny
+CB_StaS_AlwaysSynchro = Always Synced
+L_Sta_Valid_Blink = Blinking process
+CB_StaS_BlinkOnly = Blinking after only
+--
+B_StaS_Search = Search
+----------------------StationaryClock Tab---------------------
+Tab_StationaryClock = Needle
+--
+GB_StaC_EnterNeedle = Enter Needle
+CB_StaC_Clock_Start = Start Position
+CB_StaC_Clock_End = End Position
+B_StaC_Clear = Clear
+B_StaC_Back = Back 
+L_StaC_Candidate_InitialSeed = Candidate Initial Seed
+--
+GB_StaC_CurrentPosition = Position Search
+B_StaC_CP_Search = Search
+L_StaC_CP_InitialSeed = Initial Seed
+L_StaC_CP_Frame = Frame
+L_StaC_CP_NeedleList = Needle list
+--
+GB_StaC_CalcWaitingTime = Calculate Waiting Time
+B_StaC_CWT_Search = Calculate
+L_StaC_CWT_InitialSeed = Initial Seed
+L_StaC_CWT_Frame = Frame
+L_StaC_CWT_Qty_NPC = # of NPCs
+--------------------IDRNG Tab--------------------
+Tab_ID = ID RNG
+--
+L_ID_InitialSeed = Initial Seed
+L_ID_Frame = Frame
+L_ID_IDList = ID List
+L_ID_PSVList = PSV List
+L_ID_CorrectionValue = Correction Value of Needle
+--
+RB_ID_PerfectMatching = Perfect Match
+RB_ID_PartialMatch = Partial Match
+RB_ID_RegularExpression = Regular Expression
+--
+CB_ID_DisableFilters = Disable filters
+CB_ID_Shiny = Shiny
+--
+dgv_ID_Frame = Frame
+dgv_ID_ID = ID
+dgv_ID_TSV = TSV
+dgv_ID_TID = TID
+dgv_ID_SID = SID
+dgv_ID_Needle = Needle
+--
+GB_ID_RNGInfo = RNG Info
+GB_ID_Filters = Filters
+GB_ID_SearchSettings = Search Settings
+--
+B_ID_Search = Search
+---------------------Other Tab----------------------
+other = other
